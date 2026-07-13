@@ -1,0 +1,26 @@
+name: andrej-karpathy-skills
+title: Andrej Karpathy Skills Collection
+description: A collection of AI and ML skills based on Andrej Karpathy's teachings and methodologies
+version: 1.0.0
+author: multica-ai
+tags:
+  - skills
+  - ai
+  - machine-learning
+  - education
+  - tutorials
+# Specifies where skill files are located within the repository
+# Common locations: skills/, skill/, or root directory
+skills_path: skills
+# Optional: file patterns to match skill files
+skill_patterns:
+  - "*.md"
+  - "SKILL.md"
+  - "*.skill.md"
+# Optional: dependencies on other plugins
+dependencies: []
+# Optional: hooks for installation/uninstallation
+# hooks:
+#   install: "hooks/install.py"
+#   uninstall: "hooks/uninstall.py"
+#   update: "hooks/update.py"
